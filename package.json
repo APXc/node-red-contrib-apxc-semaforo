@@ -1,7 +1,7 @@
 {
   "name": "@apxc/node-red-contrib-apxc-semaforo",
   "version": "0.0.5",
-  "description": "",
+  "description": "Node that manages an object or lists of objects, with values to be used and varied in a transfers to the individual stream, all while maintaining a backup of values in case of blockage/recovery",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,12 +9,19 @@
   "author": "Alessio Pellizzaro <alessio.pellizzaro@apserial.it>",
   "license": "MPL-2.0",
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/APXc/node-red-contrib-apxc-semaforo.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "node-red": {
     "version" : ">=3.0.0",
     "nodes": {
         "semaforo-global": "index.js"
     }
-}
+  }
 }
