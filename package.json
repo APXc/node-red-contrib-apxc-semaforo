@@ -1,0 +1,20 @@
+{
+  "name": "@apxc/node-red-contrib-apxc-semaforo",
+  "version": "0.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alessio Pellizzaro <alessio.pellizzaro@apserial.it>",
+  "license": "MPL-2.0",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "node-red": {
+    "version" : ">=3.0.0",
+    "nodes": {
+        "semaforo-global": "index.js"
+    }
+}
+}
